@@ -1,0 +1,15 @@
+CREATE OR REPLACE PLACKAGE NumeroALetra AS
+
+  FUNCTION NumeroALetra(pNumero IN NUMBER) 
+  RETURN VARCHAR2;
+  
+END NumeroALetra;
+/
+CREATE OR REPLACE PLACKAGE BODY NumeroALetra AS
+
+  FUNCTION NumeroALetra(pNumero IN NUMBER) 
+  RETURN VARCHAR2 IS
+    RETURN '';
+  END;
+
+END NumeroALetra;
